@@ -1,0 +1,186 @@
+body { 
+    overflow-x: hidden; 
+  } 
+#portrait{
+    position: relative;
+    top : 50px;
+    left :40px
+    
+}
+.card{
+    height: 50rem;
+    display : flex;
+    flex-direction: row;
+}
+
+.menu-bar{
+    position: fixed;
+    height: 90px;
+    width: 230px;
+    background-color: #ffdcb6;
+    border-radius: 5%;
+    top : 38em;
+}
+#projects-title{
+    
+    position: relative;
+    
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    color: #ffdcb6;
+    top : 40rem;
+    right : 5rem;
+    
+}
+span{
+    color: #ffdcb6;
+    font-size: 40px;
+
+}
+#c1{
+    background-color: #fcf9e5 ;
+}
+#c2{
+    background-color: #6E8F73 ;
+}
+#c3{
+    background-color: #6E8F73 ;
+}
+#c4{
+    background-color: #6E8F73 ;
+}
+
+#c5{
+    background-color: #fcf9e5 ;
+    text-align: center;
+    display : relative;
+    height: 50rem;
+
+}
+
+#portaitBox{
+    position: relative;
+    left :8rem;
+    top:  7rem;
+    height: 12rem;
+    width:  12rem;    
+}
+
+#intro{
+    position: relative;
+    left :32rem;
+    width: 20em;
+    height : 100px;
+    flex :.5;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 50px;
+    font-weight: 40;
+    font-style: normal;
+}
+h1{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 130px;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    color: #fcf9e5 ;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    padding : 30px;
+
+
+}
+.orangeBox{
+    position: absolute;
+    border-radius: 5%;
+    height: 300px;
+    width:  300px;    
+   background-color: #FFD2A4 ;
+}
+#note-left{
+    left : 1rem;
+}
+.note-box{
+position: relative;
+top : 8rem;
+right : 1rem;
+margin : 1rem;
+height: 30rem;
+background-color: #fcf9e5 ;
+border-radius: 5%;
+flex : .7;
+
+font-family: "Rajdhani", sans-serif;
+font-size: 25px;
+font-weight: 60;
+font-style: normal;
+padding : 10px;
+text-align: center;
+
+}
+
+.img-box{
+flex : 1;
+}
+
+#o2{
+top : 150px;
+left : 150px;
+}
+#outerbox{
+    height : 35em;
+    background-color: #FFFEF8 ;
+}
+#contact-font{
+    font-size: 120px;
+    position: relative;
+    text-align: center;
+    top : 100px;
+
+}
+.icons{
+    margin-top: 10%;
+    padding : 1rem;
+    color : black;
+    color :  #ffdcb6;
+    width : 15em;
+}
+#c5 > a {
+    color :  #fcf9e5 ;
+}
+
+.menu-bar > a{
+    color :  #ffdcb6;
+  display : inline-block
+}
+.ctstem-vid{
+justify-self: center;
+margin: 4rem;
+}
+#certify-text{
+    position: relative;
+    top: 10rem;
+    left : 25rem;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap :10px;
+
+}
+.img-box > img{
+    margin-left: 3rem;
+}
